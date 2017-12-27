@@ -16,7 +16,7 @@ if($categoriesId) {
 	$valid['messages'] = "Eliminado correctamente";		
  } else {
  	$valid['success'] = false;
- 	$valid['messages'] = "Error al eliminar la Marca";
+ 	$valid['messages'] = "Error al eliminar la Categoría";
  }
  
  $connect->close();
